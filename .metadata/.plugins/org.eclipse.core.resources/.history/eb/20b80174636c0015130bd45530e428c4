@@ -1,0 +1,26 @@
+package br.senac.pi;
+
+public class EstruturaDeControleSwitch {
+
+	public static void main(String[] args) {
+		int n = 1;
+		switch (n) {
+		case 1:
+			System.out.println("O valor da variavel é 1");
+			break;
+			System.out.println("O valor da variavel é 2");
+			break;
+			System.out.println("O valor da variavel é 3");
+			break;
+			System.out.println("O valor da variavel é 4");
+			break;
+			
+			default:
+				System.out.println("Nenhuma valor na variavel");
+				break;
+				
+		}
+
+	}
+
+}

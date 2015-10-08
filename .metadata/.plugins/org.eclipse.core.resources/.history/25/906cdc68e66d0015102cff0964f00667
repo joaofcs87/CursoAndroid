@@ -1,0 +1,28 @@
+package br.senac.pi;
+
+import java.util.Scanner;
+
+	public class MediaSalarialDaEmpresa {
+
+	public static void main(String[] args) {
+
+		Scanner ler = new Scanner(System.in);
+
+		double Salario1, Salario2, Salario3, Total;
+
+		System.out.printf("Informe a 1a. Salario:\n");
+		nota1 = ler.nextDouble();
+
+		System.out.printf("\nInforme a 2a. Salario:\n");
+		nota2 = ler.nextDouble();
+
+		System.out.printf("\nInforme a 3a. Salario:\n");
+		nota3 = ler.nextDouble();
+
+		media = (Salario1 + Salario2 + Salario3) / 3;
+
+		System.out.printf("\nMedia final = %.2f", media);
+
+	}
+
+}
